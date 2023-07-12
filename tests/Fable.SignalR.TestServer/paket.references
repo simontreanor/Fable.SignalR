@@ -5,7 +5,7 @@
     Saturn
     TaskBuilder.fs
 
-group Net5
+group Net6
 	FSharp.Core
     FSharp.Control.AsyncSeq
     Microsoft.AspNetCore.Authentication.JwtBearer

@@ -10,7 +10,7 @@ group NetCoreApp3
     Microsoft.AspNetCore.Authentication.JwtBearer
     Microsoft.AspNetCore.TestHost
 
-group Net5
+group Net6
     BlackFox.CommandLine
 	Expecto
 	Expecto.FsCheck

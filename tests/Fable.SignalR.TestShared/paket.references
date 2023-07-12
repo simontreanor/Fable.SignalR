@@ -1,5 +1,5 @@
 ﻿group NetCoreApp3
     FSharp.Core
 
-group Net5
+group Net6
 	FSharp.Core

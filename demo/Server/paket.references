@@ -1,4 +1,4 @@
-﻿group Net5
+﻿group Net6
     Fable.Remoting.Giraffe
     FSharp.Core
     FSharp.Control.AsyncSeq

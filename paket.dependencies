@@ -1,58 +1,58 @@
-version 5.253.0
+version 7.2.1
 
-group Fable
+ group Fable
     source https://nuget.org/api/v2
     source https://api.nuget.org/v3/index.json
     
     framework: auto-detect
 
-    nuget Fable.Browser.Url ~> 1
-    nuget Fable.Core ~> 3
-    nuget Fable.Elmish ~> 3
-    nuget Fable.FastCheck ~> 0
-    nuget Fable.FastCheck.Jest ~> 0
-    nuget Fable.Jester ~> 0
-    nuget Fable.ReactTestingLibrary ~> 0
-    nuget Fable.Remoting.Client ~> 7
-    nuget Fable.Promise ~> 2
-    nuget Fable.Remoting.MsgPack ~> 1
-    nuget Fable.SimpleJson ~> 3
-    nuget Feliz ~> 1
-    nuget Feliz.Plotly ~> 1
-    nuget Feliz.UseElmish ~> 1
-    nuget FSharp.Core >= 4.7.2 lowest_matching: true
-    nuget Zanaptak.TypedCssClasses ~> 0
+    nuget Fable.Browser.Url
+    nuget Fable.Core
+    nuget Fable.Elmish
+    nuget Fable.FastCheck
+    nuget Fable.FastCheck.Jest
+    nuget Fable.Jester
+    nuget Fable.ReactTestingLibrary
+    nuget Fable.Remoting.Client
+    nuget Fable.Promise
+    nuget Fable.Remoting.MsgPack
+    nuget Fable.SimpleJson
+    nuget Feliz
+    nuget Feliz.Plotly
+    nuget Feliz.UseElmish
+    nuget FSharp.Core
+    nuget Zanaptak.TypedCssClasses
 
-group Net5
+group Net6
     source https://nuget.org/api/v2
     source https://api.nuget.org/v3/index.json
     
-    condition: net5_0
-    framework: net5
+    condition: net6_0
+    framework: net6
     
-    nuget BenchmarkDotNet ~> 0
-    nuget BlackFox.CommandLine ~> 1
-    nuget Elmish ~> 3
+    nuget BenchmarkDotNet
+    nuget BlackFox.CommandLine
+    nuget Elmish
     nuget Expecto ~> 9
     nuget Expecto.FsCheck ~> 9
-    nuget Fable.Remoting.Giraffe ~> 4
-    nuget Fable.Remoting.Json ~> 2
-    nuget Fable.Remoting.MsgPack ~> 1
-	nuget Fake.IO.FileSystem ~> 5
-	nuget Fake.JavaScript.Npm ~> 5
-    nuget Fake.JavaScript.Yarn ~> 5
-    nuget FSharp.Control.AsyncSeq ~> 3
-    nuget FSharp.Core >= 5
-    nuget FSharp.Data ~> 3
-    nuget Giraffe ~> 5
-    nuget Microsoft.AspNetCore.Authentication.JwtBearer ~> 5
-    nuget Microsoft.AspNetCore.SignalR.Client ~> 5
-    nuget Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson ~> 5
-    nuget Microsoft.AspNetCore.TestHost ~> 5
-    nuget Microsoft.IO.RecyclableMemoryStream ~> 2
-    nuget Saturn ~> 0.15
-    nuget System.Text.Encodings.Web ~> 5
-    nuget TaskBuilder.fs ~> 2
+    nuget Fable.Remoting.Giraffe
+    nuget Fable.Remoting.Json
+    nuget Fable.Remoting.MsgPack
+	nuget Fake.IO.FileSystem
+	nuget Fake.JavaScript.Npm
+    nuget Fake.JavaScript.Yarn
+    nuget FSharp.Control.AsyncSeq
+    nuget FSharp.Core
+    nuget FSharp.Data
+    nuget Giraffe
+    nuget Microsoft.AspNetCore.Authentication.JwtBearer ~> 6
+    nuget Microsoft.AspNetCore.SignalR.Client ~> 6
+    nuget Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson ~> 6
+    nuget Microsoft.AspNetCore.TestHost ~> 6
+    nuget Microsoft.IO.RecyclableMemoryStream
+    nuget Saturn
+    nuget System.Text.Encodings.Web
+    nuget TaskBuilder.fs
 
 group NetCoreApp3
     source https://nuget.org/api/v2
