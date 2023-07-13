@@ -2,7 +2,7 @@
 
 module App =
     open Fable.Core
-    open Fable.SignalR
+    open Fable.SignalR.Net6
     open Feliz
     open Feliz.Plotly
     open SignalRHub

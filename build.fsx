@@ -21,7 +21,7 @@ open System
 
 // The name of the project
 // (used by attributes in AssemblyInfo, name of a NuGet package and directory in 'src')
-let project = "Fable.SignalR"
+let project = "Fable.SignalR.Net6"
 
 // Short summary of the project
 // (used as description in AssemblyInfo and as a short summary for NuGet package)
@@ -31,17 +31,17 @@ let summary = "Fable and server bindings for SignalR."
 let author = "Cody Johnson"
 
 // File system information
-let solutionFile = "Fable.SignalR.sln"
+let solutionFile = "Fable.SignalR.Net6.sln"
 
 // Github repo
-let repo = "https://github.com/Shmew/Fable.SignalR"
+let repo = "https://github.com/Shmew/Fable.SignalR.Net6"
 
 // Files that have bindings to other languages where name linting needs to be more relaxed.
 let relaxedNameLinting = 
-    [ __SOURCE_DIRECTORY__ @@ "src/Fable.SignalR/*.fs"
-      __SOURCE_DIRECTORY__ @@ "src/Fable.SignalR.Elmish/*.fs"
-      __SOURCE_DIRECTORY__ @@ "src/Fable.SignalR.Feliz/*.fs"
-      __SOURCE_DIRECTORY__ @@ "src/Fable.SignalR.Shared/*.fs"
+    [ __SOURCE_DIRECTORY__ @@ "src/Fable.SignalR.Net6/*.fs"
+      __SOURCE_DIRECTORY__ @@ "src/Fable.SignalR.Net6.Elmish/*.fs"
+      __SOURCE_DIRECTORY__ @@ "src/Fable.SignalR.Net6.Feliz/*.fs"
+      __SOURCE_DIRECTORY__ @@ "src/Fable.SignalR.Net6.Shared/*.fs"
       __SOURCE_DIRECTORY__ @@ "tests/**/*.fs" ]
 
 // Read additional information from the release notes document
@@ -260,7 +260,7 @@ Target.create "PackageJson" <| fun _ ->
                 |> Some
             Bugs = 
                 { Json.BugsValue.Url = 
-                    @"https://github.com/Shmew/Fable.SignalR/issues/new/choose" |> Some } |> Some
+                    @"https://github.com/Shmew/Fable.SignalR.Net6/issues/new/choose" |> Some } |> Some
             License = "MIT" |> Some
             Author = author |> Some
             Private = true |> Some }

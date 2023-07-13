@@ -1,7 +1,7 @@
 namespace SignalRApp    
 
 module App =
-    open Fable.SignalR
+    open Fable.SignalR.Net6
     open Microsoft.AspNetCore.Builder
     open Microsoft.Extensions.DependencyInjection
     open Microsoft.Extensions.Logging

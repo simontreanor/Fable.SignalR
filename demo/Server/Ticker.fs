@@ -1,6 +1,6 @@
 ﻿namespace SignalRApp
 
-open Fable.SignalR
+open Fable.SignalR.Net6
 open FSharp.Control
 open Microsoft.Extensions.DependencyInjection
 open Microsoft.Extensions.Hosting

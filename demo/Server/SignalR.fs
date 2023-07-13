@@ -1,7 +1,7 @@
 ﻿namespace SignalRApp
 
 module SignalRHub =
-    open Fable.SignalR
+    open Fable.SignalR.Net6
     open FSharp.Control
     open FSharp.Control.Tasks.V2
     open SignalRHub

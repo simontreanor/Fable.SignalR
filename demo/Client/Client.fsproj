@@ -11,8 +11,8 @@
     <None Include="paket.references" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\src\Fable.SignalR.Feliz\Fable.SignalR.Feliz.fsproj" />
-    <ProjectReference Include="..\..\src\Fable.SignalR\Fable.SignalR.fsproj" />
+    <ProjectReference Include="..\..\src\Fable.SignalR.Net6.Feliz\Fable.SignalR.Net6.Feliz.fsproj" />
+    <ProjectReference Include="..\..\src\Fable.SignalR.Net6\Fable.SignalR.Net6.fsproj" />
     <ProjectReference Include="..\Shared\Shared.fsproj" />
   </ItemGroup>
   <Import Project="..\..\.paket\Paket.Restore.targets" />
